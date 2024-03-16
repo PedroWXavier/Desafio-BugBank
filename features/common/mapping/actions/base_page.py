@@ -53,8 +53,22 @@ class BasePage:
                 print("digitou - %s |%s" % (keys, by_locator[1]))
                 return
             except Exception as e:
-                err = e
-                self.exception_deve_retentar(err)
                 sleep(1)
         if obrigatorio and err is not None:
+            print("erro ao digitar - %s |%s" % (keys, by_locator[1]))
             raise err
+
+    def retorna_texto(self, by_locator, retentativas=None):
+        if retentativas is None:
+            retentativas = self.retentativas
+
+        for i in range(retentativas):
+            try:
+                text = self.driver.find_element(by_locator[0], by_locator[1]).text
+                print("existe - %s" % (by_locator[1]))
+                print("texto procurado encontrado: %s" % text)
+                return text
+            except Exception as e:
+                sleep(1)
+        print("nao existe - %s" % (by_locator[1]))
+        return False

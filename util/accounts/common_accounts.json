@@ -1,0 +1,12 @@
+{
+  "usuario_principal" : {
+    "email" : "teste1@gmail.com",
+    "nome" : "teste1",
+    "senha" : "1234"
+  },
+    "usuario_secundario" : {
+    "email" : "teste2@gmail.com",
+    "nome" : "teste2",
+    "senha" : "1234"
+  }
+}

@@ -1,8 +1,10 @@
 import datetime
 
+from util.driver.driver import driver_start, driver_quit
+
 
 def before_scenario(context, scenario):
-    pass
+    context.driver = driver_start()
 
 
 def after_step(context, step):
@@ -18,7 +20,7 @@ def after_step(context, step):
 
 
 def after_scenario(context, scenario):
-    pass
+    driver_quit()
 
 
 def before_tag(context, tag):

@@ -24,3 +24,15 @@ class CriarConta(BasePage):
 
     def realizar_registro(self):
         self.click(CriarContaObjs.BOTAO_CADASTRAR)
+
+    def retornar_numero_conta_criada(self):
+        texto = self.retorna_texto(CriarContaObjs.TEXTO_USUARIO_CRIADO)
+        try:
+            numero_conta = texto.split()[2].split('-')
+            conta = int(numero_conta[0])
+            digito = int(numero_conta[1])
+            return conta, digito
+        except Exception as e:
+            print('Erro ao obter o numero da conta criada')
+            print(e)
+            assert False

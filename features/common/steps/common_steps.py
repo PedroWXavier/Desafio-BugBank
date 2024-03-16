@@ -4,12 +4,10 @@ from behave import *
 
 from features.common.mapping.actions.criar_conta import CriarConta
 from features.common.mapping.actions.login import Login
-from util.driver import driver_start
 
 
-@given(u'que realizo o login com um usuario')
+@given(u'que eh realizado o login com um usuario principal')
 def step_impl(context):
-    context.driver = driver_start()
     context.Login = Login(context.driver)
 
     context.Login.carregar_pagina('https://bugbank.netlify.app')
@@ -17,12 +15,9 @@ def step_impl(context):
     context.Login.preencher_campo_senha('1234')
     context.Login.realizar_login()
 
-    sleep(10)
 
-
-@given(u'que realizo o cadastro de um usuario')
+@given(u'que eh realizado o cadastro de um usuario principal')
 def step_impl(context):
-    context.driver = driver_start()
     context.Login = Login(context.driver)
     context.CriarConta = CriarConta(context.driver)
 
@@ -35,3 +30,24 @@ def step_impl(context):
     context.CriarConta.preencher_campo_confirmar_senha('1234')
     context.CriarConta.clicar_toggle_adicionar_saldo()
     context.CriarConta.realizar_registro()
+
+
+@given(u'que eh realizado o cadastro de um usuario secundario')
+def step_impl(context):
+    context.Login = Login(context.driver)
+    context.CriarConta = CriarConta(context.driver)
+
+    context.Login.carregar_pagina('https://bugbank.netlify.app')
+    context.Login.entrar_menu_crair_conta()
+
+    context.CriarConta.preencher_campo_email('teste2@gmail.com')
+    context.CriarConta.preencher_campo_nome('teste2')
+    context.CriarConta.preencher_campo_senha('1234')
+    context.CriarConta.preencher_campo_confirmar_senha('1234')
+    context.CriarConta.clicar_toggle_adicionar_saldo()
+    context.CriarConta.realizar_registro()
+    sleep(2)
+    conta_secundaria = context.CriarConta.retornar_numero_conta_criada()
+    context.conta_secundaria_numero = conta_secundaria[0]
+    context.conta_secundaria_digito = conta_secundaria[1]
+
