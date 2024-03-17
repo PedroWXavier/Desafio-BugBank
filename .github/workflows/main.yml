@@ -48,6 +48,13 @@ jobs:
           git add .
           git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
+          git pull
+          git checkout -f gh-pages
+          git pull origin master
+          git add .
+          git commit -m "Att gh-pages"
+          git push
+          git checkout -f master
 
       - name: Load test report history
         uses: actions/checkout@v3
