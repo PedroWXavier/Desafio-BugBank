@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3c29909-b8ae-4a7c-a6f0-f76b6e334682" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/10/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/data/test-cases/6730acfd4d3b980b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/data/test-cases/f2aac6451d7156e3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/data/test-cases/296e779fa754d2c8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/data/test-cases/57e804bcad4583b8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/data/test-cases/a56863f4b77bdf24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/data/test-cases/d2c3bea4c399fa84.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/data/test-cases/1ed6135317e6cf03.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/data/test-cases/3934a49100206df.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/data/test-cases/b39bcaec5e1f5075.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/data/test-cases/b98460761919a978.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/data/test-cases/bb9b9d60152034c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/test-cases/173cb63e9b0a65a8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/test-cases/d634390fa562ad4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/test-cases/d6a3832d4848deac.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/test-cases/f1f062b73435f8d6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/data/test-cases/7adea10e20dc091.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/last-history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/last-history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/last-history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/last-history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/last-history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/last-history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/last-history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/last-history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/last-history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/last-history/retry-trend.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2dLRXWTLOLsxudkBmKHwqUn204z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/pewx/PycharmProjects/automacao-bugbank",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pewx\PycharmProjects\automacao-bugbank" />
+      <recent name="C:\Users\pewx\PycharmProjects\automacao-bugbank\util\environment" />
+      <recent name="C:\Users\pewx\PycharmProjects\automacao-bugbank\features\steps" />
+      <recent name="C:\Users\pewx\PycharmProjects\automacao-bugbank\features\mapping" />
+      <recent name="C:\Users\pewx\PycharmProjects\automacao-bugbank\features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pewx\PycharmProjects\automacao-bugbank\util\driver" />
+      <recent name="C:\Users\pewx\PycharmProjects\automacao-bugbank\features\common\steps" />
+      <recent name="C:\Users\pewx\PycharmProjects\automacao-bugbank\features\common" />
+      <recent name="C:\Users\pewx\PycharmProjects\automacao-bugbank\util\environment" />
+      <recent name="C:\Users\pewx\PycharmProjects\automacao-bugbank\features\transferencias" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="automacao-bugbank" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3c29909-b8ae-4a7c-a6f0-f76b6e334682" name="Changes" comment="" />
+      <created>1709785411503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709785411503</updated>
+      <workItem from="1709785413817" duration="5154000" />
+      <workItem from="1709863917484" duration="7122000" />
+      <workItem from="1710429434247" duration="20125000" />
+      <workItem from="1710529985818" duration="3509000" />
+      <workItem from="1710552175145" duration="1826000" />
+      <workItem from="1710554078272" duration="1183000" />
+      <workItem from="1710556074263" duration="3470000" />
+      <workItem from="1710608188490" duration="32998000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/automacao_bugbank$main.coverage" NAME="main Coverage Results" MODIFIED="1710651552032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
