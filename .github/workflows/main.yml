@@ -1,12 +1,12 @@
 name: Test Run and Allure Report Generation
 
 on:
-  workflow_dispatch: # Trigger the workflow manually
+  workflow_dispatch:
     inputs:
-      tags: # Input parameter for test scenario tags
+      tags:
         description: "Test scenario tags"
         required: true
-        default: "smoke"
+        default: "run tests"
 
 jobs:
   generate-allure-report:
@@ -15,10 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Install Python 3 # Step to install Python 3
+      - name: Install Python 3
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10.11 # Set the Python version to install
+          python-version: 3.10.11
 
       - name: Install Python dependencies
         uses: py-actions/py-dependency-install@v4
@@ -34,7 +34,7 @@ jobs:
       - name: Install a new Chromium
         run: sudo apt install -y chromium-browser
 
-      - name: Run tests # Step to run tests using pytest
+      - name: Run tests
         run: |
           python main.py git
 
