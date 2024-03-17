@@ -8,4 +8,4 @@ class Home(BasePage):
         super().__init__(driver)
 
     def entrar_menu_transferencia(self):
-        self.click(HomeObjs.BOTAO_TRANSFERIR)
+        self._click(HomeObjs.BOTAO_TRANSFERIR, wait=True)

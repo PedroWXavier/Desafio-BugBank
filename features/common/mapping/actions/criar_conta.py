@@ -8,25 +8,25 @@ class CriarConta(BasePage):
         super().__init__(driver)
 
     def preencher_campo_email(self, email):
-        self.send_keys(CriarContaObjs.CAMPO_EMAIL, email)
+        self._send_keys(CriarContaObjs.CAMPO_EMAIL, email)
 
     def preencher_campo_nome(self, nome):
-        self.send_keys(CriarContaObjs.CAMPO_NOME, nome)
+        self._send_keys(CriarContaObjs.CAMPO_NOME, nome)
 
     def preencher_campo_senha(self, senha):
-        self.send_keys(CriarContaObjs.CAMPO_SENHA, senha)
+        self._send_keys(CriarContaObjs.CAMPO_SENHA, senha)
 
     def preencher_campo_confirmar_senha(self, senha):
-        self.send_keys(CriarContaObjs.CAMPO_CONFIRMAR_SENHA, senha)
+        self._send_keys(CriarContaObjs.CAMPO_CONFIRMAR_SENHA, senha)
 
     def clicar_toggle_adicionar_saldo(self):
-        self.click(CriarContaObjs.TOGGLE_ADICIONAR_SALDO)
+        self._click(CriarContaObjs.TOGGLE_ADICIONAR_SALDO)
 
     def realizar_registro(self):
-        self.click(CriarContaObjs.BOTAO_CADASTRAR)
+        self._click(CriarContaObjs.BOTAO_CADASTRAR)
 
     def retornar_numero_conta_criada(self):
-        texto = self.retorna_texto(CriarContaObjs.TEXTO_USUARIO_CRIADO)
+        texto = self._retorna_texto(CriarContaObjs.TEXTO_USUARIO_CRIADO)
         try:
             numero_conta = texto.split()[2].split('-')
             conta = int(numero_conta[0])

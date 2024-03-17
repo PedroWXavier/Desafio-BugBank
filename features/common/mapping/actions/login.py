@@ -8,13 +8,13 @@ class Login(BasePage):
         super().__init__(driver)
 
     def preencher_campo_login(self, usuario):
-        self.send_keys(LoginObjs.CAMPO_EMAIL, usuario)
+        self._send_keys(LoginObjs.CAMPO_EMAIL, usuario)
 
     def preencher_campo_senha(self, senha):
-        self.send_keys(LoginObjs.CAMPO_SENHA, senha)
+        self._send_keys(LoginObjs.CAMPO_SENHA, senha)
 
     def realizar_login(self):
-        self.click(LoginObjs.BOTAO_ACESSAR)
+        self._click(LoginObjs.BOTAO_ACESSAR)
 
     def entrar_menu_crair_conta(self):
-        self.click(LoginObjs.BOTAO_REGISTRAR)
+        self._click(LoginObjs.BOTAO_REGISTRAR)

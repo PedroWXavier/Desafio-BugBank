@@ -1,4 +1,6 @@
-import datetime
+from datetime import datetime
+
+from selenium.webdriver.common.by import By
 
 from util.driver.driver import driver_start, driver_quit
 
@@ -8,14 +10,16 @@ def before_scenario(context, scenario):
 
 
 def after_step(context, step):
+    print('\n')
     if step.status == 'passed':
         pass
     else:
         try:
-            body = context.driver.find_element_by_tag_name('body')
+            body = context.driver.find_element(By.TAG_NAME, 'body')
             data = str(datetime.now().strftime("%d-%m-%Y-%H-%M-%S-%f"))
             body.screenshot(data + ".jpg")
-        except:
+        except Exception as e:
+            print(e)
             pass
 
 
