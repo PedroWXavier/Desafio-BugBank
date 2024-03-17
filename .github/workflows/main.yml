@@ -48,6 +48,7 @@ jobs:
           git add .
           git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
           git push
+          git pull
           git checkout -f gh-pages
           git pull origin master
           git add .
