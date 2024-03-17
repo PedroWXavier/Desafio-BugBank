@@ -25,10 +25,16 @@ jobs:
         with:
           path: "./requirements.txt"
 
-      - uses: browser-actions/setup-chrome@v1
-      - run: chrome --version
+      - name: Remove Chrome
+        run: sudo apt purge google-chrome-stable
+        
+      - name: Remove default Chromium
+        run: sudo apt purge chromium-browser
+        
+      - name: Install a new Chromium
+        run: sudo apt install -y chromium-browser
 
-      - name: Run tests with pytest # Step to run tests using pytest
+      - name: Run tests # Step to run tests using pytest
         run: |
           python main.py
 
