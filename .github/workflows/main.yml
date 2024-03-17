@@ -25,6 +25,9 @@ jobs:
         with:
           path: "./requirements.txt"
 
+      - uses: browser-actions/setup-chrome@v1
+      - run: chrome --version
+
       - name: Run tests with pytest # Step to run tests using pytest
         run: |
           python main.py
