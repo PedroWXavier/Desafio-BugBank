@@ -1,6 +1,9 @@
 name: Test Run and Allure Report Generation
 
 on:
+  push:
+    branches:
+      - master
   workflow_dispatch:
     inputs:
       tags:
