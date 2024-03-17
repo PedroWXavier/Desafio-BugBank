@@ -50,7 +50,7 @@ jobs:
           git push
           git pull
           git checkout -f gh-pages
-          git config pull.rebase false
+          git config pull.rebase true
           git pull origin master
           git add .
           git commit -m "Att gh-pages"
