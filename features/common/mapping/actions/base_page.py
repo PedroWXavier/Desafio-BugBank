@@ -78,5 +78,30 @@ class BasePage:
         print(f'\t\tErro ao procurar texto no campo \n\t\t\t{self.__format_locator(by_locator)}')
         raise erro
 
+    def _retorna_lista_textos(self, by_locator, retentativas=None):
+        if retentativas is None:
+            retentativas = self._retentativas
+
+        erro = None
+        for i in range(retentativas):
+            try:
+                elements = self._driver.find_elements(by_locator[0], by_locator[1])
+                if len(elements) > 1:
+                    texts = []
+                    for element in elements:
+                        texts.append(element.text)
+
+                    print(f'\t\tEncontrou {texts} campos \n\t\t\t{self.__format_locator(by_locator)}')
+                    return texts
+                else:
+                    sleep(1)
+            except Exception as e:
+                erro = e
+                sleep(1)
+        print(f'\t\tErro ao procurar textos nos campos \n\t\t\t{self.__format_locator(by_locator)}')
+        if len(texts) == 1:
+            print(f'\t\t\tFoi encontrado apenas um elemento!')
+        raise erro
+
     def __format_locator(self, by_locator):
         return f'(By: {by_locator[0]} | Locator: {by_locator[1]} | Descricao: {by_locator[2]})'

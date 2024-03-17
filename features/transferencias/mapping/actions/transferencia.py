@@ -22,6 +22,9 @@ class Transferencia(BasePage):
     def realizar_transferencia(self):
         self._click(TransferenciaObjs.BOTAO_TRANSFERIR)
 
+    def fechar_popup_transferencia_realizada(self):
+        self._click(TransferenciaObjs.BOTAO_FECHAR_POPUP)
+
     def valida_texto_transferencia_realizada(self, texto):
         texto_retornado = self._retorna_texto(TransferenciaObjs.TEXTO_TRANSFERENCIA_REALIZADA)
 

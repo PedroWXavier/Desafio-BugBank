@@ -1,7 +1,8 @@
 import random
+import uuid
 
-from features.common.mapping.actions.home import Home
 from features.common.steps.steps_common import *
+from features.extrato.steps.steps_extrato import *
 from behave import *
 
 from features.transferencias.mapping.actions.transferencia import Transferencia
@@ -37,12 +38,13 @@ def step_impl(context):
 @when('realizar uma transferencia entre contas para um usuario secundario')
 def step_impl(context):
     context.Transferencia = Transferencia(context.driver)
-    context.valor = random.randint(50, 100)
+    context.valor = random.randint(10, 40)
+    context.descricao = str(uuid.uuid1())
 
     context.Transferencia.preencher_campo_numero_conta(context.conta_secundaria_numero)
     context.Transferencia.preencher_campo_digito_conta(context.conta_secundaria_digito)
     context.Transferencia.preencher_campo_valor_transferencia(context.valor)
-    context.Transferencia.preencher_campo_descricao('teste descricao')
+    context.Transferencia.preencher_campo_descricao(context.descricao)
     context.Transferencia.realizar_transferencia()
 
 
@@ -51,3 +53,4 @@ def step_impl(context):
     context.Transferencia = Transferencia(context.driver)
 
     context.Transferencia.valida_texto_transferencia_realizada('Transferencia realizada com sucesso')
+    context.Transferencia.fechar_popup_transferencia_realizada()

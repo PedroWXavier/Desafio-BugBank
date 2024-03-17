@@ -9,3 +9,6 @@ class Home(BasePage):
 
     def entrar_menu_transferencia(self):
         self._click(HomeObjs.BOTAO_TRANSFERIR, wait=True)
+
+    def entrar_menu_extrato(self):
+        self._click(HomeObjs.BOTAO_EXTRATO, wait=True)
