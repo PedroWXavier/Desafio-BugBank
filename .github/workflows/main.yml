@@ -36,7 +36,7 @@ jobs:
 
       - name: Run tests # Step to run tests using pytest
         run: |
-          python main.py
+          python main.py git
 
       - name: Load test report history
         uses: actions/checkout@v3
